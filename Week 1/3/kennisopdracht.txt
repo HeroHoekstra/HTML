@@ -1,0 +1,53 @@
+1. Waar staat CSS voor?
+Cascading Style Sheets
+
+2. Wat kan je met CSS doen?
+De opmaakt van een HTML document.
+
+3. Wat is het verschil tussen HTML en CSS?
+HTML is voor de inhoud van een website en CSS is de opmaakt daarvan.
+
+4. Op hoeveel manieren kan je CSS toevoegen aan je HTML-code?
+3
+
+5. Geef van iedere manier een voorbeeld.
+<head> <style> /css </style> </head>
+<link href="style.css" rel="stylesheet" type="text/css"
+<p style="//css"></p>
+
+6. Welke manier is het beste? Waarom?
+<link> omdat je dan een hele apperte file heb voor je CSS en dan wordt het niet gemengt met HTML.
+
+7. Wat is een selector?
+Een ding om te laten zien wat het is, dus class, id en * etc.
+
+8. Wat is een declaratieblok?
+Het code voor een apparte selector of meerderen zoals h1 {//css}.
+
+9. Wat kan er beter bij onderstaande CSS?
+Het doet allebij het zelfde dus je kan h5, h6{//css} doen.
+
+10. Wat doet “tekst-align: justify”? Geef een voorbeeld middels een screenshot.
+Het doet het op de eertse horizontale positie.
+Zie 1.jpg
+
+11. Wat is een class?
+Class is een selector voor meerdere dingen.
+
+12. Wat is een id?
+Id is een selector voor een specefiek ding.
+
+13. Wat is het verschil tussen een class en een id?
+Class wordt gebruikt voor class aan dingen en id wordt gebruikt voor een specefieker ding.
+
+14. Wat is he verschil tussen margin en padding?
+Margin is wat er buiten het deel en padding is in het deel zelf.
+
+15. Leg “CSS Inheritance” uit met behulp van de “box-model”.
+Als jij in een parent element de padding 15px geeft, en de gebruikt de CSS inheritance heeft het child element het ook.
+
+16. Wat is het verschil tussen een block-level-element en een inline-element?
+Een block-level-element neemt veel ruimte in en een inlin-element neemt alleen zoveel ruimte in als dat het nodig heeft.
+
+17. Noem drie toepassingen van een div-element.
+Titel, menu, paragraaf

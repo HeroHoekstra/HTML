@@ -1,0 +1,20 @@
+1. Wat is altijd het eerst element op een HTML-pagina?
+<!DOCTYPE HTML>
+
+2. Wat is het verschil tussen de “head” en de “body” van een HTML-pagina?
+In de head staat alle meta data en in de body staat.
+
+3. Wat is een HTML-tag?
+Ding waar dingen in staan zoals <p> </p> (ik weet niet hoe ik het moet uitleggen).
+
+4. Wat is een attribuut?
+Een ding in de HTML-tag zoals <a src = ""> </a>.
+
+5. Geef een voorbeeld van attribuut.
+<a src = ""> </a>
+
+6. Welke HTML-tag kan je een link maken?
+<a src = "https://link.com/"> </a>
+
+7. Wat is het verschil tussen een interne en externe link?
+Een interne link i snaar een file in het project en een externe link is naar een andere web pagina
