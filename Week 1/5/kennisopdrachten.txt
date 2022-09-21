@@ -1,0 +1,74 @@
+1. Wat is de eerste stap die je moet nemen als je een websiteproject start? Wat valt daar allemaal onder?
+Maak een wireframe. De layout maken en de functies die daarbij horen.
+
+2. Wat is performance?
+Hoe makkelijk de website geladen kan worden.
+
+3. Wat is responsive web design?
+Als de gebruiker iets doet dan reageert de website daar op.
+
+4. Wat zijn de drie ingrediënten van responsive web design?
+Makkelijk te navigeren, whitespace en consitentie.
+
+5. Wanneer gebruik je het “main”-element in HTML?
+Als er iets staat dat nergens anders staat.
+
+6. Wat is een header-element en waarvoor gebruik je het? Wat is het voordeel van een header-element boven een div-element?
+De header element is voor de header van de website en het heeft soms een s voordeel van een div omdat het overzichtelijker is.
+
+7. Noem drie manieren om de kleur ‘zwart’ in code te schrijven. Geef van iedere manier een voorbeeld.
+#000, color: #000;. rgb(0,0,0), color: rgb(0, 0, 0);. black, color: black;.
+
+8. Beschrijf de verschillen tussen een “block-element”, een “inline-block-element” en een “inline-element”. Geef een praktische toepassing met code.
+Block-element neemt de hele lijn in, inline-element start op de zelfde lijn als er ruimte is en inline block doet wat hij wil.
+
+9. Wat is een comment?
+een stukje text wat de computer niet kan lezen maar wij wel.
+
+10. Hoe maak je een comment in CSS?
+/*vet coole comment*/
+
+11. Wat doet de float-property?
+Met een float kan je het overal neer zetten op de website.
+
+12. Wat is een pseudo-class en noem een toepassing hiervan.
+Een extra ding bij css zoals :hover, dan checked het dat er een muis over staat.
+
+13. Wat is een svg-extensie? Wat zijn voordelen ten opzichte van, bijvoorbeeld, een png-extensie?
+Eeb vormpje, dit is handig als je simpelle vorm wil hebben en niet een plaatje downloaden / maken.
+
+14. Wat is “padding”?
+Padding is in het element om heet groter te maken.
+
+15. Wat is “margin”?
+Margin is buiten het element om het een andere positie te geven of om het kleiner te maken.
+
+16. Wat is het verschil tussen “padding” en “margin”?
+Margin zit buiten de div / welk ding je dan ook gebruikt, en padding zit erin.
+
+17. Wat is de “margin” aan de onderkant in onderstaande CSS?
+1rem
+
+18. Wat doet de “overflow”-property? Geef een voorbeeld van een toepassing.
+Zegt wat er moet gebeuren als de content uit de content box komt.
+
+19. Wat zijn relatieve waarden in webdesign? Geef drie voorbeelden.
+Responsive webdesign, media querrys en fluid lay out.
+
+20. Wat zijn absolute waarden webdesign? Geef drie voorbeelden.
+Kleur, lettertype en letter grote.
+
+21. Wat is over het algemeen beter: het gebruik van relatieve of het gebruik van absolute waarden? Leg uit en geef een voorbeeld.
+relatieve waarden omdat dan je website er profesioneler uit gaat zien.
+
+22. Wat is een formulier in HTML? Welke tag hoort hierbij?
+Een formulier om waardes op te slaan doormiddel van html code. De tag is <form>
+
+23. In de video’s wordt iedere sectie met dezelfde volgorde gebouwd: eerst de HTML, dan de CSS. Waarom wordt dit gedaan? Kan het ook andersom? Wat is beter – en waarom?
+Omdat je dan weet welke elementen je gaaat gebruiken en anders maakt je CSS die je misschien later incompatible maakt.
+
+24. Wat is de functie van de footer?
+Zet een ding onder aan de website, in de footer.
+
+25. Welk html-element gebruik je voor de footer?
+<footer> of <p>
