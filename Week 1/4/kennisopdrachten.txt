@@ -1,0 +1,23 @@
+1. Wat is webdesign?
+Webddesign is de opbouw van een website. 
+
+2.  Wat is het verschil tussen web design en web development? Wat is de overeenkomst?
+Web development is meer backend en web disgn is meer front end. Bijde maken gebruikt van HTML CSS en JS.
+
+3. Wat is flat design? Geef ook een voorbeeld van flat design. 
+Flat design maakt gebruikt van niet complexe formpjes bijvoorbeeld als je in HTML een button niks geeft.
+
+4. Wat is typografie?
+De opmaak van een lettertype.
+
+5. Hoe bepaal je welk font je gebruitk voor je website?
+Door naar google fonts te gaan en er een uit te kiesen.
+
+6. Waarom gerbuikt je vector-afbeeldingen en vector-iconen in websites?
+Omdat het je oniendig kan inzoemen maar het geen kwaliteit verliest.
+
+7. Wat is whitespace?
+Het deel tussen twee elementen waar niks tussen zit.
+
+8. Wat is de belangrijkste sectie in deze website? En waarom?
+Het bovenste deel, omdat als je je reis gaat plannen hoef je niet naar het solicitatie deel van de website te gaan.
