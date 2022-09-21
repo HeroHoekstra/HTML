@@ -1,0 +1,11 @@
+1. Wat is de RGB-kleur van donkerblauw?
+#00f / rgb(0, 0, 255)
+
+2. Wat is de RGBA-kleur
+Red Green Blue Alpha, alpha is de doorzichtigheid.
+
+3. Maak van een block-level-element een inline-element.
+div -> span || p -> q
+
+4. Wat is de moderne variant van float voor lay-out? Wat is het verschil?
+Inline is om alles op een lijn te zetten en float is om het neer te zetten op gewoon een plek.

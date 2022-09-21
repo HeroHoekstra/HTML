@@ -1,0 +1,17 @@
+* {
+    font-family: Courier;
+}
+
+.red {
+    color: #f00;
+}
+.green{
+    color: #0f0;
+}
+.blue {
+    color: #00f;
+}
+
+.groot {
+    font-size: 3rem;
+}

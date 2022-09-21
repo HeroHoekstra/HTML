@@ -1,0 +1,49 @@
+* {
+    font-family: Courier;
+}
+body {
+    width: 800px;
+}
+
+/*doe het ding met de foto die zo dom staat*/
+#stoopid img{
+    box-sizing: content-box;
+    border: 7px solid black;
+    padding: 125px;
+    width: 150px;
+    height: 150px;
+}
+#stoopid h2 {
+    position: absolute;
+    top: 375px;
+    left: 330px;
+    color: green;
+}
+#stoopid {
+    float: left;
+}
+
+/*doe het ding naast de foto die dom staat*/
+#tijgerpag1 {
+    float: right;
+    width: 250px;
+}
+
+/*doe de author ding*/
+#author {border-top: 3px solid gray;}
+#author h2 {float: left;}
+#author h3 {float: right;}
+#author img {padding-left: 200px;}
+
+
+/*doet generic dingen*/
+h3 {
+    color: red;
+}
+p, h1, #link{
+    color: green;
+}
+
+#author h2, #author h3 {
+    color: green !important;
+}
