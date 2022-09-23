@@ -1,0 +1,60 @@
+@media screen and (min-width: 600px) {
+    body {
+    margin: 0;
+    font-family: Courier New;
+    }
+
+    #banner img {
+        width: 100%;
+        position: relative;
+        top: -76.7px;
+    }
+
+    #header {
+        position: absolute;
+        top: 250px;
+        background-color: #fff;   
+        padding-left: 35%;
+        height: 60%;
+        width: 65%;
+    }
+
+    #header h1 {
+        width: 77%;
+        border-bottom: 2px solid orange;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 75px 150px;
+        grid-template-rows: repeat(8, 50);
+        gap: 5% 8%;
+
+        position: absolute;
+        top: 330px;
+        left: 45px;
+        background-color: #fff;
+        width: 100%;
+        justify-content: center;
+    }
+
+    input, select {
+        width: 150%;
+        height: 1.75rem;
+        border: 2px solid orange;
+        border-radius: 0;
+        box-sizing: border-box;
+    }
+
+    #nieuws, #mailing, #post {
+        width: 10% !important;
+    }
+    #media label {
+        position: relative !important;
+        top: -7%;
+    }
+
+    #submit {
+        width: 150px;
+    }
+}
