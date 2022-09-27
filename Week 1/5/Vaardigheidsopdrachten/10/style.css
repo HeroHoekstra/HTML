@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    display: grid;
+    height: 300px;
+
+    grid-template-columns: [tiger1] auto [tiger2] auto [tiger3] auto [tiger4] auto;
+}
+
+#tiger1 {
+    background-image: url(tiger1.jpg);
+    width: 100%;
+    height: 50%;
+    background-size: contain;
+}
+#tiger2 {
+    background-image: url(tiger2.jpg);
+    height: 50%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#tiger3 {
+    background-image: url(tiger3.jpg);
+    height: 50%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#cutoff {
+    background-color: white;
+    float: bottom;
+    height: 50%;
+}
+
+#tiger4 {  
+    background-image: url(tiger4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
