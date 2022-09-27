@@ -1,0 +1,61 @@
+.container {
+    display: inline-grid;
+    justify-items: center;
+    justify-self: center;
+    grid-template-columns: 50% 50%;
+    height: 50%;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+#img {
+    width: 75%;
+    height: 50%;
+    margin-top: 15%;
+    background-repeat: no-repeat;
+    background-image: url(tiger.jpg);
+    background-size: 100% 100%;
+}
+
+#text {
+    width: 60%;
+    height: 50%;
+    margin-top: 15%;
+    padding-right: 40%;
+}
+
+#leven {
+    background-color: orange;
+    border: 2px solid darkorange;
+    border-radius: 45px;
+    text-align: center;
+    width: 50%;
+    height: 25px;
+
+    transition-duration: 250ms;
+}
+
+#leven:hover {
+    background-color: orangered;
+    border: 2px solid rgb(158, 42, 0);
+}
+#leven:active {
+    background-color: orange;
+    border: 2px solid darkorange;
+}
+
+#leven p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#button {
+    size: 0;
+    background: transparent;
+    border: none !important;
+}

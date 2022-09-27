@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .centered img {
+                width: 100%;
+                height: 100%;
+                transition-duration: 500ms;
+                transition-property: width, height
+            }
+
+            .centered img:hover {
+                height: 150%;
+                width: 150%;
+            }
+
+            .centered {
+                width: 150px;
+                height: 150px;
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="centered">
+            <img src="tiger.jpg">
+        </div>
+    </body>
+</html>
