@@ -1,0 +1,7 @@
+1. Geef de coded waardoor je gebruik kan maken van het lettertype 'Mukta' op je website.
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+font-family: 'Koulen', cursive;
+
+2. Geef een  voorbeeld van een media qeury en leg uit wat een media query doet.
+@media only screen and (min-width: 768px) {//css}
+Een media query kijkt wat de scherm grote is en zal de CSS script veranderen als de condities goed zijn.
