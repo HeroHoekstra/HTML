@@ -1,0 +1,31 @@
+1. Leg het verschil uit tussen './Images/photo1.jpg' en '../Images/photo1.jpg'.
+./Images/photo1.jpg gaat in een folder in de folder en ../Images/photo1.jpg gaat een folder terug en selecteerd daar een folder met het plaatje.
+
+2. Wat is het referentiepunt voor een absoluut gepositioneerd element ("position: absolute")?
+Een absoluut gepositioneerd element gaat naar het dichtsbijzijnde ancestor.
+
+3. Wat is "@keyframes" en wat doet het?
+@keyframes zijn keyframes die een animatie gaat doen. 
+
+4. Welke twee eigenschappen ("properties") kan je gebruiken bij "@keyframes"? Waarom juist die twee?
+from/to en 0-100% omdat de keyframes alleen de animatie, pas in die dingen kan je je CSS doen.
+
+5. Wat is een pseudo-selector?
+Een pseudo-selector is een ding die alleen werkt als er gebeurt wat het wil dus iets als .ding:hover of .ding:active.
+
+6. Geef drie voorbeelden van een pseudo-selector.
+.ding:hover
+.ding:active
+.ding:empty
+
+7. Welke kleur heeft de link met de class 'contact-button-main' wanneer deze nog niet bezocht is?
+Rood.
+
+8. Welke kleur heeft de link met de class ‘contact-button-main’ wanneer deze nog niet bezocht is?
+Blauw.
+
+9. Wat doet de propery "text-align"?
+Het aligned de tekst.
+
+10. Wat is de "active state" van een element?
+Als er een pseudo class op zit of als het gewoon een input is ofzo en er gebeurt iets dat de computer denkt dat het iets moet doen.
