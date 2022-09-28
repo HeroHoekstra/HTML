@@ -1,0 +1,16 @@
+1. Wat zijn media-queries?
+Media-queries zijn een CSS ding die kijkt hoe groot het scherm is.
+
+2. Geef een voorbeeld van media-queries?
+@media screen and (min-width: 900px) {//css}
+
+3. Wat betekent "-webkit-background-color: red;"?
+Dat de achtergrond van een chrome browser rood wordt.
+
+4. Wat betekent "-moz-font-size: 2rem;"?
+Dat de font-size van de mozilla browser 2rem wordt.
+
+5. Het testen van je wek is super belankrijk in programeren. Geef drie redenen waarom testen zo belangrijk is.
+    a. Omdat je dan errors kan fixen voordat het een groot probleem wordt.
+    b. Omdat je dan een idee krijgt hoe je verder kan, niet dat je de helft in 1 keer afmaakt en dan dat alles niet meer werkt maar geen error geeft.
+    c. Omdat je tijd bespaard.

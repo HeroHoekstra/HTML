@@ -1,0 +1,36 @@
+.colored {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+    background-color: blue;
+    width: 100px;
+    height: 50px;
+}
+
+@media screen and (min-width: 500px) and (min-height: 300px) {
+    .colored {
+        background-color: green;
+        width: 300px;
+        height: 400px;                   
+    }
+}
+
+@media screen and (min-width: 700px) and (min-height: 500px) {
+    .colored {
+        background-color: yellow;
+        width: 600px;
+        height: 500px;                   
+    }
+}
+
+@media screen and (min-width: 1024px) and (min-height: 650px) {
+    .colored {
+        background-color: red;
+        width: 1000px;
+        height: 600px;                   
+    }
+}
