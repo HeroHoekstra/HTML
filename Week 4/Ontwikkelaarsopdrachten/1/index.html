@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" type="text/css" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1>Flexbox</h1>
+        <div id="cheatSheet">
+            <span class="container">
+                <div>
+                    <p>Container Properties</p>
+                </div>
+                <div>
+                    <p class="header"><b>//Creates a flexbox</b></p>
+                    <p>display: flex</p>
+                </div>
+                <div>
+                    <p class="header"><b>//Direction, establishes main-axis</b></p>
+                    <p>flex-direction: row || row-reverse || column || column-reverse</p>
+                </div>
+                <div>
+                    <p class="header"><b>//To wrap or not to wrap</b></p>
+                    <p>flex-wrap: nowrap || wrap || wrap-reverse</p>
+                </div>
+                <div>
+                    <p class="header"><b>//Shorthanded (direction wrap)</b></p>
+                    <p>flex-flow: flex-direction || flex-wrap</p>
+                </div>
+                <div>
+                    <p class="header"><b>//Alignement main axis</b></p>
+                    <p>justify-content: flex-start || flex-end || center || space-between || space-around || space-evenly</p>
+                </div>
+                <div>
+                    <p class="header"><b>//Alignement cross axis</b></p>
+                    <p>align-items: stretch || flex-start || flex-end || center || baseline</p>
+                </div>
+                <div>
+                    <p class="header"><b>//Alignement lines within the container</b></p>
+                    <p>align-content: normal || flex-start || flex-end || center || space-between || space-around || space-evenly || stretch</p>
+                </div>
+            </span>
+
+            <span class="container">
+                <div>
+                    <p>Item Properties</p>
+                </div>
+                <div>
+                    <p class="header"><b>//Order of the (flex) html-elements</b></p>
+                    <p>order: integer (default: 0)</p>
+                </div>
+                <div>
+                    <p class="header"><b>//Ability to grow if necessary</b></p>
+                    <p>flex-grow: integer (default: 0)</p>
+                </div>
+                <div>
+                    <p class="header"><b>//Ability to chrink if necessary</b></p>
+                    <p>flex-shrink: positive integer (default: 0)</p>
+                </div>
+                <div>
+                    <p class="header"><b>//Defines default size of the item</b></p>
+                    <p>flex-basis: length || keyword (default: auto)</p>
+                </div>
+                <div>
+                    <p class="header"><b>//Shorthanded (grow shrink basis)</b></p>
+                    <p>flex: flex-grow flex-shrink flex-basis (default: 0 1 auto</p>
+                </div>
+                <div>
+                    <p class="header"><b>//Override default alignment from align-items</b></p>
+                    <p>align-self: auto || felx-start || flex-end || center || baseline || stretch</p>
+                </div>
+            </span>
+        </div>
+    </body>
+</html>

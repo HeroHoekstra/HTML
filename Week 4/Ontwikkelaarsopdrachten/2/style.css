@@ -1,0 +1,44 @@
+.thing {
+    background-color: lightsalmon;
+    padding: 5px;
+}
+
+.container {
+    display: flex;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+.container div {
+    border: 1px solid black;
+    margin: 3px;
+    width: 16.6%;
+}
+
+#home {
+    width: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+    .container div {
+        width: 25% !important;
+    }
+}
+@media screen and (max-width: 675px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container>* {
+        flex: 1 1 35%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container>* {
+        flex: 1 1 100%;
+    }
+}

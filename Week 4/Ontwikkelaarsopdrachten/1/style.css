@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+html {
+    background-color: wheat;
+    text-align: center;
+    font-family: 'Courier Prime', monospace;
+}
+
+#cheatSheet {
+    background-color: plum;
+    border: 3px dashed black;
+    display: flex;
+    font-size: 11px;
+}
+
+.container {
+    border: 2px solid black;
+    width: 50%;
+    margin: 3px;
+}
+
+.container div {
+    border: 1px dashed blue;
+    margin: 3px;
+}
+
+.container .header{
+    background-color: orchid;
+}
