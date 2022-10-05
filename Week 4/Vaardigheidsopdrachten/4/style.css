@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    border: 3px solid black;
+    display: flex;
+    flex-wrap: wrap;   
+}
+.container div {
+    border: 1px solid green;
+    height: 200px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 7.5rem;
+}
+
+.container>* {
+    flex: 1 1 20%;
+}
