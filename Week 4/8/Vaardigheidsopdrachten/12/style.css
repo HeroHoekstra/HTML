@@ -1,0 +1,23 @@
+html {
+    background-color: palevioletred;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 110px);
+    grid-template-rows: repeat(3, 75px);
+    gap: 30px;
+    text-align: center;
+    line-height: 75px;
+    border: 2px solid black;
+    width: 390px;
+}
+
+.A {background-color: yellow;}
+.B {background-color: pink;}
+.C {background-color: red;}
+.D {background-color: blue;}
+.E {background-color: purple;}
+.F {background-color: green;}
+.G {background-color: lightblue;}

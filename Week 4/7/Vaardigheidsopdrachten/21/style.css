@@ -1,0 +1,25 @@
+.flex-container {
+    display: flex;
+    text-align: center;
+    border: 3px solid black;
+}
+
+.flex_child {
+    flex-basis: 30rem;
+    height: 300px;
+    line-height: 300px;
+    border: 1px solid green;
+}
+
+.one {
+    background-color: yellow;
+}
+.two {
+    background-color: red;
+}
+.three {
+    background-color: blue;
+}
+.four {
+    background-color: purple;
+}

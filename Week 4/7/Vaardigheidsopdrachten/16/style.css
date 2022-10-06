@@ -1,0 +1,47 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    width: 99%;
+    height: 99%;
+    padding: 0;
+    border: 3px solid black;
+    flex-wrap: wrap;   
+    justify-content: center;
+}
+.container div {
+    border: 1px solid green;
+    width: 16.66%;
+    text-align: center;
+}
+
+@media screen and (max-width: 750px) {
+    .container div {
+        width: 32%;
+    }
+    .gaymore {
+        width: 96.5% !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container div {
+        width: 100% !important;
+    }
+}
+
+.geel {
+    background-color: yellow;
+}
+.rood {
+    background-color: red;
+}
+.blauw {
+    background-color: blue;
+}
+.paars {
+    background-color: purple;
+}
