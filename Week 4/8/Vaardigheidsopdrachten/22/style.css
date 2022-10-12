@@ -1,0 +1,78 @@
+html {
+    background-color: palevioletred;
+}
+
+.container {
+    width: 375px;
+
+    display: grid;
+    grid-template-columns: repeat(6, 50px);
+    grid-template-rows: 25px 25px repeat(5, 40px);
+    gap: 15px;
+
+    border: solid black 2px;
+    text-align: center;
+}
+
+.zero {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+
+.one {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+}
+
+.two {
+    grid-column: 4 / span 3;
+    grid-row: 1;
+}
+
+.three {
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 3;
+}
+
+.four {
+    grid-column: 4 / span 3;
+    grid-row: 2;
+}
+
+.five {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.six {
+    grid-column: 4 / span 3;
+    grid-row: 3;
+}
+
+.seven {
+    grid-column: 3 / span 4;
+    grid-row: 4;
+}
+
+.eight {
+    grid-column: 1;
+    grid-row: 5 / span 2;
+}
+
+.nine {
+    grid-column: 2;
+    grid-row: 5;
+}
+
+.ten {
+    grid-column: 3 / span 4;
+    grid-row: 5 / span 3;
+}
+
+.BGPink {background-color: pink;}
+.BGRed {background-color: red;}
+.BGBlue {background-color: blue;}
+.BGPurple {background-color: purple;}
+.BGGreen {background-color: green;}
+.BGLightblue {background-color: lightblue;}
+.BGYellow {background-color: yellow;}
