@@ -1,0 +1,4 @@
+1. Stel ik heb de volgende code “minmax(min-content, 25rem)” waarbij de minimale content van het element 30rem is. Wat gebeurt er? 
+   Geef in je uitleg een codevoorbeeld en maak gebruik van afbeeldingen en bronvermelding.
+
+Dan wordt de content 25rem omdat dat het maximal is.

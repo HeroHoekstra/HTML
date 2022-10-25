@@ -1,0 +1,75 @@
+1. Waarvoor is CSS Grid een vervanging?
+Flexbox
+
+2. Beschrijf het verschil tussen CSS Grid en Flexbox.
+Flexbox vervormt als je de browser kleiner en groter maakt. Grid doet het ook maar gaat niet groter dan is aangegeven.
+
+3. Hoe maak / creëer je een grid?
+.container {
+    grid-template-column: repeat("hoe vaak het moet herhalen", "hoe groot het moet zijn");
+    grid-template-row: repeat("hoe vaak het moet herhalen", "hoe groot het moet zijn");
+}
+
+4. Beschrjig het verschil tussen een grid-container en een grid-item.
+Een grid-container het hele grid en een grid-item zit in de grid-container.
+
+5. Wat zijn grid-lines?
+Het eind van een column of row.
+
+6. Kan een grid-cell gelijk zijn aan een grid-area? Waarom wel of waarom niet?
+Ja, omdat je de grid-cell de hele gri-area kan maken.
+
+7. Wat doet de ‘fr’-unit? Geef ook een voorbeeld.
+fr is een fractie van de browser dus als je 1fr heb word het de hele browser.
+
+8. Stel: je hebt een scherm van 1000px breed. Je hebt een grid met drie kolommen, die als volgt gedefinieerd zijn: “grid-template-columns: 300px 1fr 300px”. Hoe breed is de tweede kolom?
+400px
+
+
+9. Hoe breed is de tweede kolom als het scherm 1200px breed is?
+600px
+
+10. Stel: je hebt een scherm van 1000px breed. Je hebt een grid met drie kolommen, die als volgt gedefinieerd zijn: “grid-template-columns: 2fr 1fr 2fr”. Hoe breed is de tweede kolom?
+200px
+
+11. Stel: je hebt een scherm van 1000px breed. Je hebt een grid met drie kolommen, die als volgt gedefinieerd zijn: “grid-template-columns: 2fr 1fr 300px”. Hoe breed is de eerste kolom?
+466px
+
+12. Is “grid-template-columns: repeat(2, 50%)” hetzelfde als “grid-template-columns: repeat(2, 1fr)”? Waarom? Geef een codevoorbeeld bij je uitleg.
+Nee, want als je een grid-gap toe voegt gaat de 50% verder dan het scherm.
+
+13. Wat betekent de “-1” in “grid-row: 2 / -1”?
+Dan wodt het de helft van de grote.
+
+14. Wat betekent de “span 2” in “grid-column: 3 / span 2”?
+Dan gaat het over 2 grid-items.
+
+15. Welke code is / zijn syntactisch correct?
+a. grid-template-columns: 150px 150px 400px;
+b. grid-template-columns: repeat(3, [start end] 1fr [start-end]);
+c. grid-template-columns: [a] 1fr [b c d e] 1fr;
+
+a. 
+
+16. Welke code is / zijn syntactisch correct?
+a. grid-column: start-end 3 / span 2;
+b. grid-column: start-end-3 / span 2;
+c. grid-column: start-end 3 / start-end 4;
+d. grid-column: span 2 / start-end 4;
+
+a.
+
+17. Wat is het verschil tussen “implicit grids” en “explicit grids”? Gebruik in je antwoord diverse afbeeldingen.
+Implicit grid maakt automatisch een nieuwe grid-item aan en explicit doet dat niet
+
+18. Wat doet de property “grid-auto-rows”? Gebruik in je antwoord diverse afbeeldingen.
+Het maakt automatisch genoeg rows aan voor alle items
+
+19. Wat doet “max-content”?
+Het maakt de width lang genoeg voor de hele content
+
+20. Wat doet “min-content”?
+Het maakt de content zo klein mogelijk dat het grootste woord de width wodt.
+
+21. Wat is de “minmax()” functie? Geef een voorbeeld, inclusief code en afbeelding.
+De minmax() CSS-functie definieert een groottebereik groter dan of gelijk aan min en kleiner dan of gelijk aan max. Het wordt gebruikt met CSS-rasters.

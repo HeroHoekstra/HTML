@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+html {
+    background-color: wheat;
+    font-family: 'Courier Prime', monospace;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+
+    background-color: plum;
+    border: 3px dashed black;
+    font-size: 11px;
+}
+
+.container > div > div {
+    border: dotted blue 2px;
+    margin: 2px;
+}
+
+#head {
+    padding: 15px;
+    background-color: plum !important;
+}
+
+.container > div > div > p {
+    margin: 4.6px;
+}
+.container > div > div > p:nth-of-type(2n + 1) {background-color: orchid;}

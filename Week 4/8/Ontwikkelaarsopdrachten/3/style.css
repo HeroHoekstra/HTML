@@ -1,0 +1,70 @@
+/*Fonts and other basics*/
+html, body {
+    margin: 0;
+    height: 100%;
+
+    font-family: 'Leelawadee UI',serif;
+    font-weight: lighter;
+}
+
+h1, h2, p {
+    margin: 0;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+h1 {font-size: medium;}
+h2 {font-size: small;}
+p {font-size: x-small;}
+
+/*Box thingy*/
+.container {
+    display: grid;
+    grid-template-columns: 1fr 0.75fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr 0.75fr 1fr;
+    grid-template-areas: 
+        ". . ."
+        ". box1 ."
+        ". . ."
+        ". dice ."
+        ". . .";
+    
+    height: 100%;
+}
+
+#box {
+    grid-area: box1;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 2fr repeat(7, 1fr);
+    grid-template-rows: repeat(21, 1fr);
+}
+
+.diceBox {
+    grid-area: dice;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    justify-items: center;
+    align-items: center;
+
+    border: 1px solid black;
+}
+
+.score {
+    grid-column: 3 / span 6;
+    grid-row: 2 / span 20;
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+}
+
+/*Specific things in the box*/
+.bigBox {
+    grid-column: 1 / span 2;
+}
+
+.long {
+    grid-column: 1 / span 6;
+}
