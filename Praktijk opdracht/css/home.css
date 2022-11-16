@@ -1,0 +1,35 @@
+/*Banner*/
+#banner {
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: top;
+}
+
+#bannerContent {
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(40, 40, 40));
+}
+
+#bannerContent > div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 7%;
+}
+
+/*main*/
+main > div {
+    margin: 15px;
+    padding: 10px;
+    border:1px solid white;
+}
+
+main > div:hover {
+    scale: 1.02;
+    transition: 0.5s;
+}
+
+main > div > h1 {
+    border-bottom: 2px solid white;
+}

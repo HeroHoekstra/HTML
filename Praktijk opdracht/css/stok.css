@@ -1,0 +1,101 @@
+/*The upper page*/
+#stokPhoto {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 5px;
+    height: 25rem;
+
+    border-bottom: 2px solid white;
+}
+
+#stokPhoto > a {
+    margin: 10px;
+
+    text-decoration: none;
+    color: white;
+
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+#stokPhoto > a:hover {
+    transition: 0.5s;
+    scale: 1.02;
+}
+
+#stokPhoto > a > p {
+    transition: 0.5s;
+
+    height: 40%;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 0;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: smaller  ;
+
+    opacity: 0;
+    display: none;
+}
+#stokPhoto > a:hover > p {opacity: 1; display: block;}
+
+#stok1 {background-image: url(../img/stok1.jpg);}
+#stok2 {background-image: url(../img/stok2.jpg);}
+#stok3 {background-image: url(../img/stok3.jpg);}
+#stok4 {background-image: url(../img/stok4.jpg);}
+
+/*Middle page*/
+#stokInfo > div {
+    display: flex;
+    width: 90%;
+    margin: 15px auto 15px auto;
+    
+    border: 1px white solid;  
+    transition: 0.5s; 
+}
+#stokInfo > div:hover {scale: 1.02}
+
+#stokInfo > div > img {
+    width: 50%;
+    height: auto;
+    max-height: 30rem;
+}
+
+#stokInfo > div > .right {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.left {clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%);}
+.right {clip-path: polygon(0 0, 100% 0, 100% 100%, 25% 100%);}
+
+/*Ipad*/
+@media only screen and (max-width: 768px) {
+    /*Top page*/
+    #stokPhoto {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+
+        height: 70rem
+    }
+
+    #stokPhoto > a {
+        background-size: 100% auto;
+        background-position: 0% 10%;
+    }
+
+    /*Main*/
+    #stokInfo > div {
+        display: grid !important;
+        grid-template-rows: auto auto;
+    }
+
+    #stokInfo > div > img {
+        clip-path: none;
+        width: 100%;
+    }
+}

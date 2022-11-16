@@ -1,0 +1,32 @@
+/*main content*/
+main > div > h1 {
+    border-bottom: 2px solid white;
+}
+
+main > div {
+    border: 1px solid white;
+    margin: 15px;
+    padding: 10px;
+}
+
+main > div:hover {
+    scale: 1.02;
+    transition: 0.5s;
+}
+
+/*specifics*/
+main > h1 {
+    margin-left: 10px;
+}
+
+/*Footer specsificly for this page*/ 
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    footer {
+        position: unset;
+    }
+}

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+
+    font-family: 'Exo 2', sans-serif;
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+
+a {color: white;}
+
+/*Nav*/
+nav {   
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    background-color: wheat;
+
+    height: auto;
+    z-index: 1;
+}
+
+nav > a {
+    /*decoration*/
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+
+    /*sizes*/
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    line-height: 50px;
+}
+
+nav > a:hover {
+    transition: 0.5s;
+    scale: 1.02;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/*Footer*/
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    width: 100%;
+    z-index: 2;
+
+    background-color: black;
+    text-align: center;
+}
+
+/*Ipad*/
+@media only screen and (max-width: 768px) {
+    /*footer*/
+    footer {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+
+/*Phone*/
+@media only screen and (max-width: 375px) {
+    /*nav*/
+    nav {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    /*footer*/
+    footer {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
